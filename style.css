@@ -63,6 +63,7 @@ button {
 .hero-secondary-text {
 	color: #e5e7eb;
 	padding: 12px 0px;
+	font-size: 18px;
 }
 
 p {
@@ -77,4 +78,33 @@ p {
 	width: 250px;
 	background-color: gray;
 	margin-bottom: 20px;
+	color: #f9faf8;
+}
+
+/* INFORMATION */
+
+.information {
+	display: flex;
+	flex-flow: column;
+	padding-bottom: 200px;
+}
+
+.team-header-text {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
 }
