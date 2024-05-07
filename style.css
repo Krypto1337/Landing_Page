@@ -108,3 +108,39 @@ p {
 	align-items: center;
 	gap: 12px;
 }
+
+/* QUOTE */
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	background-color: #e5e7eb;
+	gap: 24px;
+	padding: 64px;
+}
+
+.quote-text {
+	width: 1200px;
+	align-self: center;
+	font-size: 36px;
+	font-style: italic;
+	margin-top: 24px;
+	color: #1f2937;
+}
+
+.quoter {
+	width: 1200px;
+	align-self: center;
+	text-align: right;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.footer {
+	display: flex;
+	background-color: #1f2937;
+	color: #f9faf8;
+	align-items: center;
+	justify-content: center;
+	height: 75px;
+}
